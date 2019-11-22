@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="https://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<title>Error DEtails</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<form th:action="@{/login}" method="post">
+
+		<label style="color: Green">
+			<center>
+				<H1>Error Details Page</H1>
+			</center>
+
+		</label>
+
+		<div>
+			<center>
+				<label> first Name : <input style="color: blue" type="text"
+					name="username" />
+				</label>
+			</center>
+		</div>
+		<div>
+			<center>
+				<label> Last Name : <input style="color: blue"
+					type="password" name="password" />
+				</label>
+			</center>
+		</div>
+
+	</form>
+</body>
+</html>

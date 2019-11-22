@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="https://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<title>Success</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div>
+		<center>
+			<H1 style="color: Green">File Uploaded Status</H1>
+		</center>
+	</div>
+
+	<table style="width: 100%">
+		<tr valign="middle">
+			<td th:text="${message}"></td>
+		</tr>
+	</table>
+
+</body>
+</html>

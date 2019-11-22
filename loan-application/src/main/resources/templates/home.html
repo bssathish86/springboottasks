@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+<title>Welcome to Loan application</title>
+<link rel="stylesheet" href="main.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<center>
+		<H1 style="color: Green">Home page</H1>
+	</center>
+
+
+
+	<form width="729" th:action="@{/logout}" method="post">
+
+		<h1 align="right" style="color: gray" th:inline="text">Hello
+			[[${#httpServletRequest.remoteUser}]]!</h1>
+
+		<table style="color: gray" border="1">
+			<tr>
+				<th style="color: Green">Menu</th>
+			</tr>
+			<th:block th:each="menu: ${menus}">
+				<tr>
+					<td style="color: Green"><a th:href="@{'/' +  ${menu.name}}"
+						th:text="${menu.name} + ' Page'" /></td>
+				</tr>
+			</th:block>
+		</table>
+
+		<center>
+			<button width="100" height="50" style="color: blue" type="submit"
+				value="Sign Out" />
+		</center>
+
+	</form>
+</body>
+</html>
+
+
+
+
+
+

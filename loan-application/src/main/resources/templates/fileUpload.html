@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="https://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<body>
+
+	<form method="POST" action="/uploadFile" enctype="multipart/form-data">
+
+		<label style="color: Green">
+			<center>
+				<H1>File Upload Page</H1>
+			</center>
+			<center>
+				<table>
+					<tr valign="center">
+						<td width="350" valign="center"><label style="color: blue">
+								Please select a File </label></td>
+						<td width="350" valign="center"><input style="color: gray"
+							type="file" name="file"></td>
+					</tr>
+					<tr valign="center" halign="" width="100%">
+						<td valign="center"><button type="submit">Upload</button></td>
+					</tr>
+				</table>
+			</center>
+			<center></center>
+	</form>
+
+</body>
+</html>

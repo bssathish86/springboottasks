@@ -1,0 +1,140 @@
+body {
+	font-family: "Arial";
+	font-color: #2e2e2e;
+	background-color: powderblue;
+}
+
+p {
+	color: red;
+	font-family: courier;
+	font-size: 160%;
+	border: 1px solid powderblue;
+	padding: 30px;
+}
+
+h1 {
+	color: #78ab46;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 5px;
+	border: 1px solid black;
+	display: table;
+	color: gray;
+	border-color: gray;
+	background-color: #f1f1c1;
+}
+
+th {
+	text-align: left;
+	font-family: "Arial";
+	font-color: #ff8040;
+	font-size: 24px;
+	color: gray;
+	border-color: gray;
+	background-color: #f1f1c1;
+	font-color: #ff8040;
+	font-size: 24px;
+}
+
+tr {
+	text-align: left;
+	valign: "center";
+	font-family: "Arial";
+	font-color: #ff8040;
+	font-size: 24px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+	color: green;
+	background-color: green;
+}
+
+td {
+	font-family: "Arial";
+	font-color: #ff8040;
+	font-size: 24px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	width: 50%;
+	color: green;
+	background-color: #0080c0;
+}
+
+form {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+div {
+	margin: auto;
+	width: auto;
+	max-width: 800px;
+	margin-bottom: 10px;
+}
+
+input {
+	font-size: 13px;
+	padding: 5px;
+	width: 100%;
+	color: red;
+}
+
+textarea {
+	font-size: 13px;
+	padding: 5px;
+	width: 100%;
+	color: green;
+}
+
+label {
+	color: red;
+	background-color: #00ffff;
+}
+
+button {
+	background-color: #4CAF50;
+	border: none;
+	color: red;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+button1 {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50; /* Green */
+}
+
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+}
